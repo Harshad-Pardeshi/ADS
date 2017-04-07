@@ -38,8 +38,6 @@ class SquaredNumbers(luigi.Task):
 
 
 class UploadToS3(luigi.Task):
-    #awsKey = 'AKIAIKKVCJ2BT52MZHAA'
-    #awsSecret = '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'
     awsKey = luigi.Parameter(config_path=dict(section='path',name='aws_key'))
     awsSecret = luigi.Parameter(config_path=dict(section='path',name='aws_secret'))
     
