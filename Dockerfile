@@ -27,6 +27,4 @@ RUN apt-get update && \
 
 #RUN pip install pystrich
 
-#CMD [ "python", "./Luigi_Test.py UploadToS3 --local-scheduler --awsKey AKIAIKKVCJ2BT52MZHAA --awsSecret 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" ]
-
-CMD [ "python", "./Luigi_Test.py", "UploadToS3", "--local-scheduler", "--awsKey", "AKIAIKKVCJ2BT52MZHAA", "--awsSecret", "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" ]
+CMD [ "python", "./Luigi_Test.py", "UploadToS3", "--local-scheduler", "--awsKey", "<Access Key>", "--awsSecret", "<Secret key>" ]
