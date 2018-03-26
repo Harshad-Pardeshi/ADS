@@ -1,2 +1,1 @@
 # ADS
-ADS assignments
